@@ -39,7 +39,7 @@ function! NERDTreeAck()
         echo 'Maybe another time...'
         return
     endif
-    exec "Ack! -i '".pattern."' '".cd."'"
+    exec "LAck! -i '".pattern."' '".cd."'"
 endfunction
 
 function! NERDTreeAckSensitive()
